@@ -9,6 +9,32 @@ import UIKit
 
 class fivetotenViewController: UIViewController {
 
+    @IBAction func bambooStraws(_ sender: UIButton) {
+        if let url = URL(string: "https://www.amazon.com/dp/B07SG5ZCDV?tag=ecowatch-20&linkCode=osi&th=1&psc=1") {
+             UIApplication.shared.open(url, options: [:])
+         }
+    }
+    
+    
+    @IBAction func reusableBags(_ sender: UIButton) {
+        if let url = URL(string: "https://www.amazon.com/dp/B07SG5ZCDV?tag=ecowatch-20&linkCode=osi&th=1&psc=1") {
+             UIApplication.shared.open(url, options: [:])
+         }
+    }
+    
+    
+    @IBAction func beesWrap(_ sender: UIButton) {
+        if let url = URL(string: "https://ecologicalmarket.com/collections/on-the-go/products/single-wraps-honeycomb") {
+             UIApplication.shared.open(url, options: [:])
+         }
+    }
+    
+    @IBAction func stainRemovalStick(_ sender: UIButton) {
+        if let url = URL(string: "https://ecologicalmarket.com/collections/under-10/products/soap-stick-for-stain-removal-unscented") {
+             UIApplication.shared.open(url, options: [:])
+         }
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
