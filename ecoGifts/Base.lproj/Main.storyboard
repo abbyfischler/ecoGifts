@@ -5,9 +5,13 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Ten Totwentyfive View Controller-->
         <scene sceneID="NEi-Gw-QiC">
@@ -26,7 +30,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="b07-Ve-v5n"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="lavendear"/>
                     </view>
                     <navigationItem key="navigationItem" id="b6G-dh-h60"/>
                 </viewController>
@@ -43,9 +47,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ecoGifts is an app that suggests gift ideas that are eco friendly in suitable price ranges!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdL-rh-U3a">
-                                <rect key="frame" x="62" y="209" width="291" height="107"/>
+                                <rect key="frame" x="37" y="220" width="341" height="107"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -53,8 +57,21 @@
                                 <rect key="frame" x="61" y="44" width="292" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ow2-W8-TGc">
+                                <rect key="frame" x="102" y="361" width="210" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="48"/>
+                                <state key="normal" title="$5-$10">
+                                    <color key="titleColor" name="mint"/>
+                                </state>
+                                <connections>
+                                    <action selector="fiveToTen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SE8-E6-xyG"/>
+                                    <segue destination="cMK-W8-wtl" kind="show" id="JxT-SS-SBE"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0v-8q-Ib1">
-                                <rect key="frame" x="102" y="432" width="210" height="68"/>
+                                <rect key="frame" x="102" y="450" width="210" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="48"/>
@@ -67,7 +84,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUe-Ft-uiD">
-                                <rect key="frame" x="101" y="522" width="212" height="68"/>
+                                <rect key="frame" x="101" y="540" width="212" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="48"/>
@@ -80,7 +97,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfq-gN-GcG">
-                                <rect key="frame" x="101" y="610" width="212" height="68"/>
+                                <rect key="frame" x="101" y="628" width="212" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="48"/>
@@ -93,7 +110,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4XP-MU-Tya">
-                                <rect key="frame" x="101" y="698" width="212" height="68"/>
+                                <rect key="frame" x="101" y="716" width="212" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="48"/>
@@ -103,19 +120,6 @@
                                 <connections>
                                     <action selector="seventyFivePlus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kIm-vy-4uc"/>
                                     <segue destination="0ed-vc-ry0" kind="show" id="Neq-v0-jZT"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ow2-W8-TGc">
-                                <rect key="frame" x="102" y="343" width="210" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="48"/>
-                                <state key="normal" title="$5-$10">
-                                    <color key="titleColor" name="mint"/>
-                                </state>
-                                <connections>
-                                    <action selector="fiveToTen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SE8-E6-xyG"/>
-                                    <segue destination="cMK-W8-wtl" kind="show" id="JxT-SS-SBE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -144,7 +148,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="AbX-cg-Xhb"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="lavendear"/>
                     </view>
                     <navigationItem key="navigationItem" id="cRp-S5-Pg8"/>
                 </viewController>
@@ -169,7 +173,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0Bc-KF-9hK"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="lavendear"/>
                     </view>
                     <navigationItem key="navigationItem" id="FTd-fT-u9s"/>
                 </viewController>
@@ -194,7 +198,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wyw-jq-BJG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="lavendear"/>
                     </view>
                     <navigationItem key="navigationItem" id="C1C-SY-FDm"/>
                 </viewController>
@@ -219,7 +223,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lz8-8O-3oc"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="lavendear"/>
                     </view>
                     <navigationItem key="navigationItem" id="nzI-a2-rt9"/>
                 </viewController>
@@ -236,8 +240,5 @@
         <namedColor name="mint">
             <color red="0.25882352941176467" green="0.70196078431372544" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>
