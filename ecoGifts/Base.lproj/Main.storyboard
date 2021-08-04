@@ -335,21 +335,14 @@
             </objects>
             <point key="canvasLocation" x="708.69565217391312" y="93.75"/>
         </scene>
-        <!--View Controller-->
+        <!--Seventy Five Plus View Controller-->
         <scene sceneID="Eo7-8D-9SP">
             <objects>
-                <viewController id="0ed-vc-ry0" sceneMemberID="viewController">
+                <viewController id="0ed-vc-ry0" customClass="seventyFivePlusViewController" customModule="ecoGifts" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4SE-Yo-LYY" customClass="seventyFivePlus">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="seventyfiveplus" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebd-XR-wOs">
-                                <rect key="frame" x="74" y="328" width="119" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rhs-sw-7wD">
                                 <rect key="frame" x="34" y="30" width="21" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -360,6 +353,50 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="nCf-jt-3xZ"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="zee-pg-Vzl">
+                                <rect key="frame" x="54" y="30" width="307" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bi7-rc-Q4B">
+                                <rect key="frame" x="22" y="207" width="370" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">All of the items on this page are $75 and above. Click on the item you are interested in and it will take you to the website where you can purchase the item.  </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3M-Pi-lYh">
+                                <rect key="frame" x="10" y="342" width="218" height="186"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="allBirdShoes"/>
+                                <connections>
+                                    <action selector="allBirdShoes:" destination="0ed-vc-ry0" eventType="touchUpInside" id="NSP-Tn-YAj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qc-Re-8dF">
+                                <rect key="frame" x="236" y="342" width="177" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="kankenLaptopBackpack"/>
+                                <connections>
+                                    <action selector="laptopBackpack:" destination="0ed-vc-ry0" eventType="touchUpInside" id="7ce-X7-xFt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y0c-5W-39U">
+                                <rect key="frame" x="10" y="563" width="205" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="organicWaffleBedBlanket"/>
+                                <connections>
+                                    <action selector="Blanket:" destination="0ed-vc-ry0" eventType="touchUpInside" id="TBe-eV-zgm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccp-MJ-p7t">
+                                <rect key="frame" x="223" y="577" width="181" height="180"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="personalGardenGrower"/>
+                                <connections>
+                                    <action selector="personalGardenGrower:" destination="0ed-vc-ry0" eventType="touchUpInside" id="sw1-IN-eR3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Wyw-jq-BJG"/>
                         <color key="backgroundColor" name="lavendear"/>
@@ -368,7 +405,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kbY-29-CFX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3607" y="94"/>
+            <point key="canvasLocation" x="3605.7971014492755" y="93.75"/>
         </scene>
         <!--Fifty To Seventyfive View Controller-->
         <scene sceneID="nkh-ct-Y0h">
@@ -413,12 +450,16 @@
         <image name="Reusable Produce Bag Zero Waste Reusable Bag Cream" width="1590" height="1230"/>
         <image name="Single Wraps | Honeycomb" width="1060" height="952"/>
         <image name="WR1-Bento-Wet-Box-Rectangle-7_1800x1800" width="1024" height="1024"/>
+        <image name="allBirdShoes" width="1940" height="1566"/>
         <image name="arrowshape.turn.up.backward.fill" catalog="system" width="128" height="106"/>
         <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
         <image name="bamboo-straws-1_1800x1800" width="1080" height="1350"/>
         <image name="bowls" width="1588" height="1191"/>
         <image name="hydroflask" width="166" height="265"/>
+        <image name="kankenLaptopBackpack" width="1184" height="1314"/>
         <image name="logo" width="1730" height="1198"/>
+        <image name="organicWaffleBedBlanket" width="1000" height="1000"/>
+        <image name="personalGardenGrower" width="990" height="1040"/>
         <image name="recycled paper notebook" width="794" height="1059"/>
         <image name="soyCandles" width="1588" height="2310"/>
         <image name="stainremovalstick" width="1140" height="542"/>
