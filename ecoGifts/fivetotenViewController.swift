@@ -10,7 +10,7 @@ import UIKit
 class fivetotenViewController: UIViewController {
 
     @IBAction func bambooStraws(_ sender: UIButton) {
-        if let url = URL(string: "https://www.amazon.com/dp/B07SG5ZCDV?tag=ecowatch-20&linkCode=osi&th=1&psc=1") {
+        if let url = URL(string: "                https://guud-products.com/products/10-pack-reusable-bamboo-straws-non-plastic-wood-drinking-straw?_pos=1&_sid=6cccd6621&_ss=r") {
              UIApplication.shared.open(url, options: [:])
          }
     }
