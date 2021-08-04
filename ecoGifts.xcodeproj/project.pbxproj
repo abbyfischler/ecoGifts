@@ -16,6 +16,11 @@
 		020824C426B9EF1000F087A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020824C226B9EF1000F087A0 /* LaunchScreen.storyboard */; };
 		020824CF26B9EF1000F087A0 /* ecoGiftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020824CE26B9EF1000F087A0 /* ecoGiftsTests.swift */; };
 		020824DA26B9EF1000F087A0 /* ecoGiftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020824D926B9EF1000F087A0 /* ecoGiftsUITests.swift */; };
+		020824E826BA437200F087A0 /* fivetotenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020824E726BA437200F087A0 /* fivetotenViewController.swift */; };
+		020824EA26BA43F300F087A0 /* tenTotwentyfiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020824E926BA43F300F087A0 /* tenTotwentyfiveViewController.swift */; };
+		020824EC26BA449A00F087A0 /* twentyFivetofiftyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020824EB26BA449A00F087A0 /* twentyFivetofiftyViewController.swift */; };
+		020824EE26BA454F00F087A0 /* fiftyToSeventyfiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020824ED26BA454F00F087A0 /* fiftyToSeventyfiveViewController.swift */; };
+		020824F026BA45A300F087A0 /* seventyFivePlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020824EF26BA45A300F087A0 /* seventyFivePlusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		020824D526B9EF1000F087A0 /* ecoGiftsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ecoGiftsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		020824D926B9EF1000F087A0 /* ecoGiftsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecoGiftsUITests.swift; sourceTree = "<group>"; };
 		020824DB26B9EF1000F087A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020824E726BA437200F087A0 /* fivetotenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fivetotenViewController.swift; sourceTree = "<group>"; };
+		020824E926BA43F300F087A0 /* tenTotwentyfiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tenTotwentyfiveViewController.swift; sourceTree = "<group>"; };
+		020824EB26BA449A00F087A0 /* twentyFivetofiftyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twentyFivetofiftyViewController.swift; sourceTree = "<group>"; };
+		020824ED26BA454F00F087A0 /* fiftyToSeventyfiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fiftyToSeventyfiveViewController.swift; sourceTree = "<group>"; };
+		020824EF26BA45A300F087A0 /* seventyFivePlusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seventyFivePlusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,11 @@
 				020824B626B9EF0E00F087A0 /* SceneDelegate.swift */,
 				020824B826B9EF0E00F087A0 /* ViewController.swift */,
 				020824BA26B9EF0E00F087A0 /* Main.storyboard */,
+				020824EF26BA45A300F087A0 /* seventyFivePlusViewController.swift */,
+				020824ED26BA454F00F087A0 /* fiftyToSeventyfiveViewController.swift */,
+				020824EB26BA449A00F087A0 /* twentyFivetofiftyViewController.swift */,
+				020824E926BA43F300F087A0 /* tenTotwentyfiveViewController.swift */,
+				020824E726BA437200F087A0 /* fivetotenViewController.swift */,
 				020824C026B9EF1000F087A0 /* Assets.xcassets */,
 				020824C226B9EF1000F087A0 /* LaunchScreen.storyboard */,
 				020824C526B9EF1000F087A0 /* Info.plist */,
@@ -261,9 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				020824EA26BA43F300F087A0 /* tenTotwentyfiveViewController.swift in Sources */,
 				020824B926B9EF0E00F087A0 /* ViewController.swift in Sources */,
+				020824E826BA437200F087A0 /* fivetotenViewController.swift in Sources */,
+				020824EC26BA449A00F087A0 /* twentyFivetofiftyViewController.swift in Sources */,
 				020824BF26B9EF0E00F087A0 /* ecoGifts.xcdatamodeld in Sources */,
+				020824EE26BA454F00F087A0 /* fiftyToSeventyfiveViewController.swift in Sources */,
 				020824B526B9EF0E00F087A0 /* AppDelegate.swift in Sources */,
+				020824F026BA45A300F087A0 /* seventyFivePlusViewController.swift in Sources */,
 				020824B726B9EF0E00F087A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
