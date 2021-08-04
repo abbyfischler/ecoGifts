@@ -21,9 +21,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ten to twenty five" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygp-Le-XRb">
-                                <rect key="frame" x="141" y="218" width="132" height="18"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygp-Le-XRb">
+                                <rect key="frame" x="55" y="196" width="305" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">All of the items on this page are from $10 to $25. Click on the item you are interested in and it will take you to the website where you can purchase the item.  </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -42,22 +43,38 @@
                                 <rect key="frame" x="43" y="20" width="307" height="181"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="il_1588xN.2545242497_frx5" translatesAutoresizingMaskIntoConstraints="NO" id="gcb-0h-FTM">
-                                <rect key="frame" x="28" y="301" width="145" height="147"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2nA-Lm-4o9">
+                                <rect key="frame" x="20" y="320" width="230" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="il_1588xN.3189580875_at4b" translatesAutoresizingMaskIntoConstraints="NO" id="A7R-KH-YnC">
-                                <rect key="frame" x="240" y="279" width="144" height="147"/>
+                                <state key="normal" title="Button" image="bowls"/>
+                                <connections>
+                                    <action selector="bowls:" destination="YnO-6d-qdP" eventType="touchUpInside" id="6fI-Ma-d02"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJX-3y-zQt">
+                                <rect key="frame" x="253" y="302" width="141" height="296"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-04 at 11.41.25 AM" translatesAutoresizingMaskIntoConstraints="NO" id="CsX-pA-7qi">
-                                <rect key="frame" x="28" y="508" width="145" height="128"/>
+                                <state key="normal" image="toteBag"/>
+                                <connections>
+                                    <action selector="toteBag:" destination="YnO-6d-qdP" eventType="touchUpInside" id="T8o-v0-71v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mof-5w-HDf">
+                                <rect key="frame" x="20" y="494" width="225" height="199"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2021-08-04 at 11.45.43 AM" translatesAutoresizingMaskIntoConstraints="NO" id="zxg-8b-qwA">
-                                <rect key="frame" x="253" y="508" width="115" height="128"/>
+                                <state key="normal" title="Button" image="toothBrushes"/>
+                                <connections>
+                                    <action selector="toothBrush:" destination="YnO-6d-qdP" eventType="touchUpInside" id="bG0-MR-dwL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Na-he-YIH">
+                                <rect key="frame" x="253" y="616" width="161" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Button" image="utensils"/>
+                                <connections>
+                                    <action selector="bambooCutlerySet:" destination="YnO-6d-qdP" eventType="touchUpInside" id="rQd-TR-2eC"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="b07-Ve-v5n"/>
                         <color key="backgroundColor" name="lavendear"/>
@@ -352,19 +369,19 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="DvV-Sc-GF7"/>
+        <segue reference="Gkd-B7-tKU"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Reusable Produce Bag Zero Waste Reusable Bag Cream" width="1590" height="1230"/>
-        <image name="Screen Shot 2021-08-04 at 11.41.25 AM" width="1030" height="1042"/>
-        <image name="Screen Shot 2021-08-04 at 11.45.43 AM" width="1380" height="1376"/>
         <image name="Single Wraps | Honeycomb" width="1060" height="952"/>
         <image name="arrowshape.turn.up.backward.fill" catalog="system" width="128" height="106"/>
         <image name="bamboo-straws-1_1800x1800" width="1080" height="1350"/>
-        <image name="il_1588xN.2545242497_frx5" width="1588" height="1191"/>
-        <image name="il_1588xN.3189580875_at4b" width="1588" height="2118"/>
+        <image name="bowls" width="1588" height="1191"/>
         <image name="logo" width="1730" height="1198"/>
         <image name="stainremovalstick" width="1140" height="542"/>
+        <image name="toothBrushes" width="1380" height="1376"/>
+        <image name="toteBag" width="1588" height="2118"/>
+        <image name="utensils" width="1030" height="1042"/>
         <namedColor name="lavendear">
             <color red="0.9100000262260437" green="0.84299999475479126" blue="0.94499999284744263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
