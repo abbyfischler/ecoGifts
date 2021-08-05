@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,6 +10,9 @@
     <customFonts key="customFonts">
         <array key="OpenSans-Regular.ttf">
             <string>OpenSans-Regular</string>
+        </array>
+        <array key="PlayfairDisplay-VariableFont_wght.ttf">
+            <string>PlayfairDisplay-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -76,8 +79,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" name="lavendear"/>
                         <viewLayoutGuide key="safeArea" id="b07-Ve-v5n"/>
+                        <color key="backgroundColor" name="lavendear"/>
                     </view>
                     <navigationItem key="navigationItem" id="b6G-dh-h60"/>
                 </viewController>
@@ -104,7 +107,7 @@
                                 <rect key="frame" x="50" y="20" width="292" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ow2-W8-TGc">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ow2-W8-TGc">
                                 <rect key="frame" x="102" y="307" width="210" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -117,7 +120,7 @@
                                     <segue destination="cMK-W8-wtl" kind="show" id="JxT-SS-SBE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0v-8q-Ib1">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r0v-8q-Ib1">
                                 <rect key="frame" x="102" y="396" width="210" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -130,7 +133,7 @@
                                     <segue destination="YnO-6d-qdP" kind="show" id="pFQ-2o-7TO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUe-Ft-uiD">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUe-Ft-uiD">
                                 <rect key="frame" x="101" y="486" width="212" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -143,7 +146,7 @@
                                     <segue destination="fxU-bA-6RJ" kind="show" id="mVC-kd-zh7"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfq-gN-GcG">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sfq-gN-GcG">
                                 <rect key="frame" x="101" y="574" width="212" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -156,7 +159,7 @@
                                     <segue destination="DYc-sm-z9k" kind="show" id="Idj-gR-dxV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4XP-MU-Tya">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4XP-MU-Tya">
                                 <rect key="frame" x="101" y="662" width="212" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -169,18 +172,18 @@
                                     <segue destination="0ed-vc-ry0" kind="show" id="Neq-v0-jZT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBb-zW-RGY">
-                                <rect key="frame" x="167" y="764" width="83" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBb-zW-RGY">
+                                <rect key="frame" x="164" y="764" width="89" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="about us"/>
+                                <state key="normal" title="About Us"/>
                                 <connections>
                                     <segue destination="6am-eJ-JnM" kind="show" id="AWH-L0-fSV"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" name="lavendear"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="lavendear"/>
                     </view>
                     <navigationItem key="navigationItem" id="8ae-lQ-49r"/>
                     <connections>
@@ -255,8 +258,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" name="lavendear"/>
                         <viewLayoutGuide key="safeArea" id="AbX-cg-Xhb"/>
+                        <color key="backgroundColor" name="lavendear"/>
                     </view>
                     <navigationItem key="navigationItem" id="cRp-S5-Pg8"/>
                 </viewController>
@@ -331,8 +334,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" name="lavendear"/>
                         <viewLayoutGuide key="safeArea" id="0Bc-KF-9hK"/>
+                        <color key="backgroundColor" name="lavendear"/>
                     </view>
                     <navigationItem key="navigationItem" id="FTd-fT-u9s"/>
                 </viewController>
@@ -349,58 +352,80 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ec1-3W-Jym">
-                                <rect key="frame" x="116" y="78" width="182" height="21"/>
+                                <rect key="frame" x="89" y="29" width="237" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BC8-vT-eyI">
-                                <rect key="frame" x="33" y="57" width="49" height="22"/>
+                                <rect key="frame" x="20" y="20" width="49" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="19h-4W-N80"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tessa: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZh-Pl-O1J">
-                                <rect key="frame" x="84" y="191" width="53" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tessa Sundar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZh-Pl-O1J">
+                                <rect key="frame" x="123" y="106" width="120" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="20"/>
+                                <color key="textColor" name="mint"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Marissa:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43j-BQ-ELS">
-                                <rect key="frame" x="46" y="571" width="64" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Abby Fischler" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wi1-EH-aeZ">
+                                <rect key="frame" x="123" y="568" width="122" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="20"/>
+                                <color key="textColor" name="mint"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uBR-Q0-qaG">
-                                <rect key="frame" x="46" y="224" width="150" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tessaPFP" translatesAutoresizingMaskIntoConstraints="NO" id="uBR-Q0-qaG">
+                                <rect key="frame" x="-10" y="106" width="150" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSO-ZF-TC5">
-                                <rect key="frame" x="264" y="127" width="150" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="abbyPFP" translatesAutoresizingMaskIntoConstraints="NO" id="cSO-ZF-TC5">
+                                <rect key="frame" x="-10" y="568" width="150" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dc3-c7-UZJ">
-                                <rect key="frame" x="46" y="635" width="150" height="128"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marissaPFP" translatesAutoresizingMaskIntoConstraints="NO" id="Dc3-c7-UZJ">
+                                <rect key="frame" x="-10" y="355" width="150" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1re-bJ-UN9">
-                                <rect key="frame" x="121" y="360" width="273" height="280"/>
+                                <rect key="frame" x="126" y="592" width="273" height="223"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Abby: Abby is a rising sophomore at Geffen Academy at UCLA. Abby was a part of the Hacker Zephyr which was the world's longest hackathon on land: 3,502 miles long during Summer 2021. Abby is a 2021 Kode with Klossy mobile development scholar. Abby was a 2020 Kode with Klossy web dev scholar. Abby loves all things technology. Abby is an ambassador for Bit by Bit and Generation She. Abby is a 2021 Los Angeles Affiliate Honorable Mention for the NCWIT Award for Aspirations in Computing (AiC). To find her work and learn more go to abbyfischler.com.
-</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <mutableString key="text">Abby is a rising sophomore at Geffen Academy at UCLA. Abby was a part of the Hacker Zephyr which was the world's longest hackathon on land: 3,502 miles long during Summer 2021. Abby is a 2021 Kode with Klossy mobile development scholar. Abby was a 2020 Kode with Klossy web dev scholar. Abby loves all things technology. Abby is an ambassador for Bit by Bit and Generation She. Abby is a 2021 Los Angeles Affiliate Honorable Mention for the NCWIT Award for Aspirations in Computing (AiC). To find her work and learn more go to abbyfischler.com.</mutableString>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="12.300000190734863"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Marissa Alejo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sm9-0s-Uhv">
+                                <rect key="frame" x="123" y="355" width="119" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="PlayfairDisplay-Regular" family="Playfair Display" pointSize="20"/>
+                                <color key="textColor" name="mint"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="15" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5B-5z-1qW">
+                                <rect key="frame" x="126" y="130" width="280" height="217"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Tessa is a rising 7th grader from the Bay Area. Tessa has taken a class on web development with Koding with Klossy and she is excited to learn about App development this year. Tessa’s works as a regional director at Innoverge, which inspires young kids to learn about STEM. With her coding superpowers, Tessa hopes to encourage the youth in her community to pursue a job in the tech industry. During her free time, Tessa enjoys swimming, coding, reading, and playing the piano. </string>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fot-Hq-LhP">
+                                <rect key="frame" x="126" y="372" width="268" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Marissa is a rising sophomore from Los Angeles, California. She enjoys playing sports and spending time with her family. She is a second-generation Mexican-American and is passionate about racial equity and equality as well as equal access opportunities for underrepresented groups. She is a 2021 Kode with Klossy mobile application development scholar and hopes to continue a path in computer science.</string>
+                                <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="yiE-Wo-dN8"/>
+                        <color key="backgroundColor" name="lavendear"/>
                     </view>
                     <navigationItem key="navigationItem" id="mJu-CH-W9S"/>
                 </viewController>
@@ -472,8 +497,8 @@
                                 <string key="userLabel">All of the items on this page are $75 and above. Click on the item you are interested in and it will take you to the website where you can purchase the item.</string>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" name="lavendear"/>
                         <viewLayoutGuide key="safeArea" id="Wyw-jq-BJG"/>
+                        <color key="backgroundColor" name="lavendear"/>
                     </view>
                     <navigationItem key="navigationItem" id="C1C-SY-FDm"/>
                 </viewController>
@@ -552,8 +577,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" name="lavendear"/>
                         <viewLayoutGuide key="safeArea" id="Lz8-8O-3oc"/>
+                        <color key="backgroundColor" name="lavendear"/>
                     </view>
                     <navigationItem key="navigationItem" id="nzI-a2-rt9"/>
                 </viewController>
@@ -562,6 +587,10 @@
             <point key="canvasLocation" x="2844.9275362318845" y="93.75"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="AWH-L0-fSV"/>
+        <segue reference="19h-4W-N80"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Reusable Produce Bag Zero Waste Reusable Bag Cream" width="1590" height="1230"/>
         <image name="Screen Shot 2021-08-05 at 10.22.52 AM" width="706" height="1050"/>
@@ -570,18 +599,21 @@
         <image name="Screen Shot 2021-08-05 at 10.32.08 AM" width="696" height="742"/>
         <image name="Single Wraps | Honeycomb" width="1060" height="952"/>
         <image name="WR1-Bento-Wet-Box-Rectangle-7_1800x1800" width="1024" height="1024"/>
+        <image name="abbyPFP" width="500" height="500"/>
         <image name="allBirdShoes" width="1940" height="1566"/>
-        <image name="arrowshape.turn.up.left.fill" catalog="system" width="64" height="52"/>
+        <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
         <image name="bamboo-straws-1_1800x1800" width="1080" height="1350"/>
         <image name="bowls" width="1588" height="1191"/>
         <image name="hydroflask" width="166" height="265"/>
         <image name="kankenLaptopBackpack" width="1184" height="1314"/>
         <image name="logo" width="1730" height="1198"/>
+        <image name="marissaPFP" width="500" height="500"/>
         <image name="organicWaffleBedBlanket" width="1000" height="1000"/>
         <image name="personalGardenGrower" width="990" height="1040"/>
         <image name="recycled paper notebook" width="794" height="1059"/>
         <image name="soyCandles" width="1588" height="2310"/>
         <image name="stainremovalstick" width="1140" height="542"/>
+        <image name="tessaPFP" width="500" height="500"/>
         <image name="toothBrushes" width="1380" height="1376"/>
         <image name="toteBag" width="1588" height="2118"/>
         <image name="utensils" width="1030" height="1042"/>
@@ -592,8 +624,4 @@
             <color red="0.25900000333786011" green="0.70200002193450928" blue="0.5690000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="AWH-L0-fSV"/>
-        <segue reference="19h-4W-N80"/>
-    </inferredMetricsTieBreakers>
 </document>
