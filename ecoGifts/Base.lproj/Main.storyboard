@@ -278,7 +278,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2s-0U-TDA">
                                 <rect key="frame" x="23" y="30" width="21" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
+                                <state key="normal" image="arrowshape.turn.up.left.fill" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
@@ -589,7 +589,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="AWH-L0-fSV"/>
-        <segue reference="19h-4W-N80"/>
+        <segue reference="DvV-Sc-GF7"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Reusable Produce Bag Zero Waste Reusable Bag Cream" width="1590" height="1230"/>
