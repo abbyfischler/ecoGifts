@@ -15,11 +15,16 @@ class twentyFivetofiftyViewController: UIViewController {
                 }
     }
     
-    @IBAction func noteBook(_ sender: UIButton) {
-        if let url = URL(string: "https://www.etsy.com/listing/955205063/hardcover-100-recycled-paper-journal?ref=internal_similar_listing_bot-1") {
-                    UIApplication.shared.open(url, options: [:])
-                }
+    
+    @IBAction func Notebook(_ sender: UIButton) {
+        if let url = URL (string: "https://www.amazon.com/dp/B010OTS4D6?tag=dotdashtreehu-20&linkCode=ogi&th=1&psc=1&ascsubtag=4859268%7Cn0410f535d90a43d6beb8203f210b9c7320") {
+            UIApplication.shared.open(url, options: [:])
+        }
+        
     }
+    
+    
+
     
     @IBAction func bentoBox(_ sender: UIButton) {
         if let url = URL(string: "https://ecologicalmarket.com/collections/on-the-go/products/bento-wet-box-large-rectangle") {
